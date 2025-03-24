@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <title>Sample HTML5 Document</title>
+</head>
+
+<body>
+
+    <!-- Main Content -->
+    <header>
+        <h1>Sample Page with Ordered List, Contacts Table, and Registration Form</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>First item in the list</li>
+            <li>Second item in the list</li>
+            <li>Third item in the list</li>
+            <li>Fourth item in the list</li>
+            <li>Fifth item in the list</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image from Pexels</h2>
+        <img src="https://images.pexels.com/photos/1231234/pexels-photo-1231234.jpeg" alt="Sample Image" width="500">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contacts Table</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1234 Elm St, Springfield</td>
+                    <td>555-1234</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>5678 Oak St, Shelbyville</td>
+                    <td>555-5678</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Johnson</td>
+                    <td>1357 Pine St, Capital City</td>
+                    <td>555-1357</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>James Wilson</td>
+                    <td>2468 Maple St, Metroville</td>
+                    <td>555-2468</td>
+                    <td>james@example.com</td>
+                </tr>
+                <tr>
+                    <td>Patricia Brown</td>
+                    <td>3579 Cedar St, Rivertown</td>
+                    <td>555-3579</td>
+                    <td>patricia@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Gender Radio Buttons -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+            </fieldset>
+            <br><br>
+
+            <!-- Terms Checkbox -->
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                I agree to the Terms and Conditions
+            </label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
